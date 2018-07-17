@@ -12,6 +12,5 @@ services:
       - GF_AUTH_ANONYMOUS_ORG_NAME
       - GF_USERS_DEFAULT_THEME
     volumes:
-      - "./persistent/:/var/lib/grafana/"
       - "./grafana.ini:/etc/grafana/grafana.ini"
       - "./ldap.toml:/etc/grafana/ldap.toml"
